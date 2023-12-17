@@ -1,0 +1,21 @@
+{
+    "batch_size": 64,
+    "epochs": 4,
+    "interval": 1000,
+    "n_latent": 64,
+    "lr": 0.0001,
+    "channel_sizes_G": [
+        512,
+        256,
+        128
+    ],
+    "channel_sizes_D": [
+        128,
+        256,
+        512
+    ],
+    "weight_init": true,
+    "datatype": "mnist",
+    "save_dir": "dcgan_experiment/experiment_mnist",
+    "time": 379.1541585922241
+}

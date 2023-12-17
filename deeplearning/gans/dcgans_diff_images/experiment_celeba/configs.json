@@ -1,0 +1,23 @@
+{
+    "batch_size": 64,
+    "epochs": 2,
+    "interval": 1000,
+    "n_latent": 64,
+    "lr": 0.0001,
+    "channel_sizes_G": [
+        512,
+        256,
+        128,
+        64
+    ],
+    "channel_sizes_D": [
+        64,
+        128,
+        256,
+        512
+    ],
+    "weight_init": true,
+    "datatype": "celeba",
+    "save_dir": "dcgan_experiment/experiment_celeba",
+    "time": 2901.5728046894073
+}
