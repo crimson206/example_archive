@@ -1,0 +1,23 @@
+{
+    "batch_size": 64,
+    "epochs": 2,
+    "interval": 250,
+    "n_latent": 64,
+    "lr": 0.0001,
+    "channel_sizes_G": [
+        512,
+        256,
+        128
+    ],
+    "channel_sizes_D": [
+        128,
+        256,
+        512
+    ],
+    "mapping_depth": 2,
+    "mapping_equalized": true,
+    "mapping_lr_multiplier": 0.1,
+    "weight_init": true,
+    "datatype": "mnist",
+    "save_dir": "dcgan_and_mapping3/_mapping_depth_2_mapping_lr_multiplier_0.1_mapping_equalized_True"
+}
